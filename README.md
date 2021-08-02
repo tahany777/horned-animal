@@ -1,5 +1,35 @@
 # Getting Started with Create React App
 
+## Feature #1: Display images
+
+Estimate of time needed to complete: half an hour
+
+Start time: 2:50
+
+Finish time: 3:45
+
+Actual time needed to complete: about one hour
+
+## Feature #2: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: half an hour
+
+Start time: 4:00
+
+Finish time: 6:00
+
+Actual time needed to complete: about two hours
+
+## Feature 3: Bootstrap
+
+Estimate of time needed to complete: two hours
+
+Start time: 7:00
+
+Finish time: 9:30
+
+Actual time needed to complete: about two hours and half
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
