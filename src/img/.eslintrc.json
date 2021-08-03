@@ -1,4 +1,4 @@
-{
+/*{
     
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -49,4 +49,4 @@
       "semi": "error"
     }
   }
-  
+*/  
