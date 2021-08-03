@@ -12,7 +12,7 @@ export class SelectedBeast extends Component {
           <img
             style={{
               maxWidth: '100%',
-              height: "300px",
+              height: '300px',
               cursor: 'pointer',
               textAlign: 'center',
             }}
