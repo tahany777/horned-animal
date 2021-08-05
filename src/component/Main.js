@@ -15,22 +15,27 @@ export class Main extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     let event = e.target.value;
-    this.setState({
+    if(event === 'all') {
+      this.setState({
+        show: 'flex',
+        items: 'none',
+      });
+    }
+    else {this.setState({
       show: 'none',
       items: 'flex',
       newData: data.filter((el) => {return el.horns === parseInt(event)})
     });
+  }
     console.log(this.state.newData);
     console.log(event);
-  }
-  handleClick = () => {
-
   }
   render(){
     return(
       <div>
-        <Form.Select onClick={(e) => {this.handleSubmit(e)}} aria-label="Default select example">
-          <option >choose the number of horns</option>
+        <Form.Select style={{cursor: 'pointer'}} onClick={(e) => {this.handleSubmit(e)}} aria-label="Default select example">
+        <option disabled>choose the number of horns</option>
+          <option value='all'>All</option>
           <option value='1'>One</option>
           <option value='2'>Two</option>
           <option value='3'>Three</option>
